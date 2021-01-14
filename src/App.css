@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap");
+html {
+  height: 100%;
+}
+body {
+  /* background: rgb(131, 190, 207); */
+  height: 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+
+  background: #7878df;
+}
+.App {
+  height: 100%;
+}
+.outer-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+.app-container {
+  width: 85%;
+  height: 90%;
+  background-color: #fff;
+  margin: auto;
+  padding: 50px;
+}
+.title-name {
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-size: 92px;
+  font-weight: 900;
+  color: #000000;
+}
+.MuiButtonBase-root {
+  margin: 10px !important;
+  width: max-content;
+  height: max-content;
+}
+.MuiToggleButton-label {
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+}
+
+.MuiToggleButton-sizeLarge {
+  background-color: #f3f3f3 !important;
+  color: #0e0d0d !important;
+  box-shadow: 0 3px 12px -1px rgba(7, 10, 25, 0.2),
+    0 22px 27px -20px rgba(7, 10, 25, 0.2);
+  width: 200px;
+  transition: 0.1s ease-out;
+}
+.MuiToggleButton-sizeLarge:hover {
+  opacity: 1;
+  box-shadow: 0 15px 45px -5px rgba(7, 10, 25, 0.25);
+  transition: 0.1s ease-in;
+}
+.MuiToggleButton-root.Mui-selected {
+  color: #ffffff !important;
+  background-color: #7878df !important;
+}
+.MuiToggleButton-root.Mui-selected:hover {
+  transition: none;
+  -webkit-filter: brightness(1);
+  filter: brightness(1);
+  box-shadow: 0 3px 12px -1px rgba(7, 10, 25, 0.2),
+    0 22px 27px -20px rgba(7, 10, 25, 0.2);
+}
+
+span.MuiButton-label {
+  width: 300px;
+  padding: 20px 20px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+}
+.MuiButton-containedSizeLarge {
+  padding: 0px 0px !important;
+}
+.play-button-area {
+  margin-top: 40px;
+}
+.instructions {
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: 0 3px 12px -1px rgba(7, 10, 25, 0.2),
+    0 22px 27px -20px rgba(7, 10, 25, 0.2);
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 30px;
+}
+.instructions h4 {
+  font-size: 32px;
+}
+.instructions-inner {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #e4e4e4;
+  margin-bottom: 20px;
+}
+.text-danger {
+  color: red;
+}
+
+/* Board */
+.board {
+  border: 3px #000000;
+}
+.table-row {
+  width: 10px;
+  border: 1px #0e0d0d;
+}
+@media (max-width: 1366px) {
+  .title-name {
+    font-size: 52px;
+    margin-top: 0px;
+  }
+
+  .app-container {
+    padding: 20px;
+  }
+  .MuiToggleButton-sizeLarge {
+    width: 150px;
+  }
+  .MuiToggleButton-label {
+    font-size: 16px;
+  }
+  .play-button-area {
+    margin-top: 20px;
+  }
+  span.MuiButton-label {
+    width: 200px;
+    padding: 15px 15px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+  }
+  .instructions {
+    padding: 10px;
+  }
+}
